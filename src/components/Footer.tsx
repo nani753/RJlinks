@@ -58,6 +58,7 @@ export const Footer: React.FC = () => {
               <li><Link to="/blog" className="text-gray-400 hover:text-white transition-colors">Blog</Link></li>
               <li><Link to="/about" className="text-gray-400 hover:text-white transition-colors">About Us</Link></li>
               <li><Link to="/contact" className="text-gray-400 hover:text-white transition-colors">Contact</Link></li>
+              <li><Link to="/sitemap" className="text-gray-400 hover:text-white transition-colors">Site Map</Link></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Help Center</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">API Documentation</a></li>
             </ul>
@@ -69,6 +70,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2 mb-6">
               <li><Link to="/terms-of-service" className="text-gray-400 hover:text-white transition-colors">Terms of Service</Link></li>
               <li><Link to="/privacy-policy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</Link></li>
+              <li><Link to="/adsense-policy" className="text-gray-400 hover:text-white transition-colors">AdSense Policy</Link></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Cookie Policy</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">DMCA</a></li>
             </ul>

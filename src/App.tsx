@@ -17,6 +17,8 @@ import { About } from './pages/About';
 import { Contact } from './pages/Contact';
 import { Verify } from './pages/Verify';
 import { Redirect } from './pages/Redirect';
+import { AdSensePolicy } from './pages/AdSensePolicy';
+import { Sitemap } from './pages/Sitemap';
 import { AnimatedBackground } from './components/AnimatedBackground';
 
 function App() {
@@ -41,6 +43,8 @@ function App() {
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/adsense-policy" element={<AdSensePolicy />} />
+                <Route path="/sitemap" element={<Sitemap />} />
                 <Route path="/verify/:shortCode" element={<Verify />} />
                 <Route path="/r/:shortCode" element={<Redirect />} />
               </Routes>

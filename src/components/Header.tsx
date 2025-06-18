@@ -15,6 +15,7 @@ export const Header: React.FC = () => {
     { name: 'Blog', href: '/blog' },
     { name: 'About', href: '/about' },
     { name: 'Contact', href: '/contact' },
+    { name: 'Privacy Policy', href: '/privacy-policy' },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -34,7 +35,7 @@ export const Header: React.FC = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex space-x-6">
             {navigation.map((item) => {
               if (item.auth && !user) return null;
               return (
